@@ -43,7 +43,7 @@ My lectures can be listened to as youtube tracks and lecture notes are also scan
 * Homework 3 [(download)](https://github.com/kapelner/QC_Math_341_Spring_2020/blob/master/homeworks/hw03/hw03.pdf?raw=true) [(view)](https://github.com/kapelner/QC_Math_341_Spring_2020/blob/master/homeworks/hw03/hw03.pdf) (due 3/6)
 * Homework 2 [(download)](https://github.com/kapelner/QC_Math_341_Spring_2020/blob/master/homeworks/hw02/hw02.pdf?raw=true) [(view)](https://github.com/kapelner/QC_Math_341_Spring_2020/blob/master/homeworks/hw02/hw02.pdf) (due 2/26)
 * Homework 1 [(download)](https://github.com/kapelner/QC_Math_341_Spring_2020/blob/master/homeworks/hw01/hw01.pdf?raw=true) [(view)](https://github.com/kapelner/QC_Math_341_Spring_2020/blob/master/homeworks/hw01/hw01.pdf) (due 2/8)-->
-* Homework 0 [(last few pages of syllabus)](https://github.com/kapelner/QC_Math_341_Spring_2020/blob/master/syllabus/syllabus.pdf?raw=true) (due 1/31)
+* Homework 0 [(syllabus, page 6)](https://github.com/kapelner/QC_Math_341_Spring_2020/blob/master/syllabus/syllabus.pdf?raw=true) (due 1/31)
 
 
 ## Exams
@@ -86,9 +86,9 @@ Location: Kiely Hall 283 (the classroom)
 Time: Friday, 10:50-11:20AM (except April 17)
 Location: Kiely Hall 061
 
-In addition, Abhinav Patel, the course TA, will hold office hours as well:
+In addition, Abhinav Patil, the course TA, will hold office hours as well:
 
-Time: TBA
+Time: Wed 3:15-4:15PM
 Location: Kiely Hall 5th floor math lounge
 
 ## Grades and Class Standing
