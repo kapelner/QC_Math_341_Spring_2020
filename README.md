@@ -81,14 +81,14 @@ My lectures can be listened to as youtube tracks and lecture notes are also scan
 
 I *want* you to come to office hours! My office hours are:
 
-Time: Tues/Thurs 10:30-11AM
-Location: Kiely Hall 283 (the classroom)
-Time: Friday, 10:50-11:20AM (except April 17)
+Time: Tues/Thurs 10:30-11AM\
+Location: Kiely Hall 283 (the classroom)\
+Time: Friday, 10:50-11:20AM (except April 17)\
 Location: Kiely Hall 061
 
 In addition, Abhinav Patil, the course TA, will hold office hours as well:
 
-Time: Wed 3:15-4:15PM
+Time: Wed 3:15-4:15PM\
 Location: Kiely Hall 5th floor math lounge
 
 ## Grades and Class Standing
