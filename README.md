@@ -41,8 +41,8 @@ My lectures can be listened to as youtube tracks and lecture notes are also scan
 * Homework 5 [(download)](https://github.com/kapelner/QC_Math_341_Spring_2020/blob/master/homeworks/hw05/hw05.pdf?raw=true) [(view)](https://github.com/kapelner/QC_Math_341_Spring_2020/blob/master/homeworks/hw05/hw05.pdf) (due 4/17)
 * Homework 4 [(download)](https://github.com/kapelner/QC_Math_341_Spring_2020/blob/master/homeworks/hw04/hw04.pdf?raw=true) [(view)](https://github.com/kapelner/QC_Math_341_Spring_2020/blob/master/homeworks/hw04/hw04.pdf) (due 3/25)
 * Homework 3 [(download)](https://github.com/kapelner/QC_Math_341_Spring_2020/blob/master/homeworks/hw03/hw03.pdf?raw=true) [(view)](https://github.com/kapelner/QC_Math_341_Spring_2020/blob/master/homeworks/hw03/hw03.pdf) (due 3/6)
-* Homework 2 [(download)](https://github.com/kapelner/QC_Math_341_Spring_2020/blob/master/homeworks/hw02/hw02.pdf?raw=true) [(view)](https://github.com/kapelner/QC_Math_341_Spring_2020/blob/master/homeworks/hw02/hw02.pdf) (due 2/26)
-* Homework 1 [(download)](https://github.com/kapelner/QC_Math_341_Spring_2020/blob/master/homeworks/hw01/hw01.pdf?raw=true) [(view)](https://github.com/kapelner/QC_Math_341_Spring_2020/blob/master/homeworks/hw01/hw01.pdf) (due 2/8)-->
+* Homework 2 [(download)](https://github.com/kapelner/QC_Math_341_Spring_2020/blob/master/homeworks/hw02/hw02.pdf?raw=true) [(view)](https://github.com/kapelner/QC_Math_341_Spring_2020/blob/master/homeworks/hw02/hw02.pdf) (due 2/26)-->
+* Homework 1 [(download)](https://github.com/kapelner/QC_Math_341_Spring_2020/blob/master/homeworks/hw01/hw01.pdf?raw=true) [(view)](https://github.com/kapelner/QC_Math_341_Spring_2020/blob/master/homeworks/hw01/hw01.pdf) (due 2/10)
 * Homework 0 [(syllabus, page 6)](https://github.com/kapelner/QC_Math_341_Spring_2020/blob/master/syllabus/syllabus.pdf?raw=true) (due 1/31)
 
 
@@ -72,9 +72,9 @@ My lectures can be listened to as youtube tracks and lecture notes are also scan
 
 * Final
 
-[(practice exam 2019)](https://github.com/kapelner/QC_Math_341_Spring_2019/blob/master/exams/final/final.pdf) [(practice exam 2019 solutions)](https://github.com/kapelner/QC_Math_341_Spring_2019/blob/master/exams/final/final_solutions.pdf)
-[(practice exam 2018)](https://github.com/kapelner/QC_Math_341_Spring_2018/blob/master/exams/final/final.pdf) [(practice exam 2018 solutions)](https://github.com/kapelner/QC_Math_341_Spring_2018/blob/master/exams/final/final_solutions.pdf)
-[(practice exam 2017)](https://github.com/kapelner/QC_Math_341_Spring_2017/blob/master/exams/final/final.pdf) [(practice exam 2017 solutions)](https://github.com/kapelner/QC_Math_341_Spring_2017/blob/master/exams/final/final_solutions.pdf) Omit 2i, 
+[(practice exam 2019)](https://github.com/kapelner/QC_Math_341_Spring_2019/blob/master/exams/final/final.pdf) [(practice exam 2019 solutions)](https://github.com/kapelner/QC_Math_341_Spring_2019/blob/master/exams/final/final_solutions.pdf)\
+[(practice exam 2018)](https://github.com/kapelner/QC_Math_341_Spring_2018/blob/master/exams/final/final.pdf) [(practice exam 2018 solutions)](https://github.com/kapelner/QC_Math_341_Spring_2018/blob/master/exams/final/final_solutions.pdf)\
+[(practice exam 2017)](https://github.com/kapelner/QC_Math_341_Spring_2017/blob/master/exams/final/final.pdf) [(practice exam 2017 solutions)](https://github.com/kapelner/QC_Math_341_Spring_2017/blob/master/exams/final/final_solutions.pdf) Omit 2i, \
 [(practice exam 2016)](https://github.com/kapelner/QC_Math_390.03-02_Spr_2016/blob/master/exams/final/final.pdf) [(practice exam 2016 solutions)](https://github.com/kapelner/QC_Math_390.03-02_Spr_2016/blob/master/exams/final/final_solutions.pdf) Omit Problem 1i, 1j, 1k, 1l, all of 2.
 
 ## Office Hours
