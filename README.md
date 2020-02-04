@@ -28,9 +28,10 @@ My lectures can be listened to as youtube tracks and lecture notes are also scan
 * Lecture 6 [(audio)](https://youtu.be/qUKaGNJ1xDY) [(Prof)](https://github.com/kapelner/QC_Math_341_Spring_2020/blob/master/lectures/lec06kap.pdf)
 * Lecture 5 [(audio)](https://youtu.be/lg9LU0eYe7M) [(Prof)](https://github.com/kapelner/QC_Math_341_Spring_2020/blob/master/lectures/lec05kap.pdf)
 * Lecture 4 [(audio)](https://youtu.be/KFXyRZAF0t4) [(Prof)](https://github.com/kapelner/QC_Math_341_Spring_2020/blob/master/lectures/lec04kap.pdf)
-* Lecture 3 [(audio)](https://youtu.be/88phG0FEHRk) [(Prof)](https://github.com/kapelner/QC_Math_341_Spring_2020/blob/master/lectures/lec03kap.pdf)
-* Lecture 2 [(audio)](https://youtu.be/iYU0iBITt90) [(Prof)](https://github.com/kapelner/QC_Math_341_Spring_2020/blob/master/lectures/lec02kap.pdf) [(Karen Lopez)](https://github.com/kapelner/QC_Math_341_Spring_2020/blob/master/lectures/lec02lopez.pdf) [(Tzipora Horowitz)](https://github.com/kapelner/QC_Math_341_Spring_2020/blob/master/lectures/lec01horowitz.pdf) 
-* Lecture 1 [(audio)](https://youtu.be/CExBhy6zzxg) [(Prof)](https://github.com/kapelner/QC_Math_341_Spring_2020/blob/master/lectures/lec01kap.pdf) [(Karen Lopez)](https://github.com/kapelner/QC_Math_341_Spring_2020/blob/master/lectures/lec01lopez.pdf) [(Abhinav Patil)](https://github.com/kapelner/QC_Math_341_Spring_2020/blob/master/lectures/lec01patil.pdf) [(Shakib Khondker)](https://github.com/kapelner/QC_Math_341_Spring_2020/blob/master/lectures/lec01khondker.pdf) [(Isaac Gordon)](https://github.com/kapelner/QC_Math_341_Spring_2020/blob/master/lectures/lec01gordon.pdf) -->  
+* Lecture 3 [(audio)](https://youtu.be/88phG0FEHRk) [(Prof)](https://github.com/kapelner/QC_Math_341_Spring_2020/blob/master/lectures/lec03kap.pdf) -->  
+* Lecture 2 [(audio)](https://youtu.be/) [(Adriana Sham)](https://github.com/kapelner/QC_Math_341_Spring_2020/blob/master/lectures/lec02Sham.pdf) [(Junhao Du)](https://github.com/kapelner/QC_Math_341_Spring_2020/blob/master/lectures/lec02du.pdf) [(Antoinette Hemlall)](https://github.com/kapelner/QC_Math_341_Spring_2020/blob/master/lectures/lec02hemlall.pdf) [(Christella Nissanthan)](https://github.com/kapelner/QC_Math_341_Spring_2020/blob/master/lectures/lec02nissanthan.pdf) 
+* Lecture 1 [(audio)](https://youtu.be/) [(Antoinette Hemlall)](https://github.com/kapelner/QC_Math_341_Spring_2020/blob/master/lectures/lec01hemlall.pdf) [(Junhao Du)](https://github.com/kapelner/QC_Math_341_Spring_2020/blob/master/lectures/lec01du.pdf) [(Adriana Sham)](https://github.com/kapelner/QC_Math_341_Spring_2020/blob/master/lectures/lec01Sham.pdf) [(Christella Nissanthan)](https://github.com/kapelner/QC_Math_341_Spring_2020/blob/master/lectures/lec01nissanthan.pdf)
+
 
 
 ## Homeworks
