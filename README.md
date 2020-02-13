@@ -41,8 +41,8 @@ My lectures can be listened to as youtube tracks and lecture notes are also scan
 * Homework 6 [(download)](https://github.com/kapelner/QC_Math_341_Spring_2020/blob/master/homeworks/hw06/hw06.pdf?raw=true) [(view)](https://github.com/kapelner/QC_Math_341_Spring_2020/blob/master/homeworks/hw06/hw06.pdf) (due 5/14)
 * Homework 5 [(download)](https://github.com/kapelner/QC_Math_341_Spring_2020/blob/master/homeworks/hw05/hw05.pdf?raw=true) [(view)](https://github.com/kapelner/QC_Math_341_Spring_2020/blob/master/homeworks/hw05/hw05.pdf) (due 4/17)
 * Homework 4 [(download)](https://github.com/kapelner/QC_Math_341_Spring_2020/blob/master/homeworks/hw04/hw04.pdf?raw=true) [(view)](https://github.com/kapelner/QC_Math_341_Spring_2020/blob/master/homeworks/hw04/hw04.pdf) (due 3/25)
-* Homework 3 [(download)](https://github.com/kapelner/QC_Math_341_Spring_2020/blob/master/homeworks/hw03/hw03.pdf?raw=true) [(view)](https://github.com/kapelner/QC_Math_341_Spring_2020/blob/master/homeworks/hw03/hw03.pdf) (due 3/6)
-* Homework 2 [(download)](https://github.com/kapelner/QC_Math_341_Spring_2020/blob/master/homeworks/hw02/hw02.pdf?raw=true) [(view)](https://github.com/kapelner/QC_Math_341_Spring_2020/blob/master/homeworks/hw02/hw02.pdf) (due 2/26)-->
+* Homework 3 [(download)](https://github.com/kapelner/QC_Math_341_Spring_2020/blob/master/homeworks/hw03/hw03.pdf?raw=true) [(view)](https://github.com/kapelner/QC_Math_341_Spring_2020/blob/master/homeworks/hw03/hw03.pdf) (due 3/6)-->
+* Homework 2 [(download)](https://github.com/kapelner/QC_Math_341_Spring_2020/blob/master/homeworks/hw02/hw02.pdf?raw=true) [(view)](https://github.com/kapelner/QC_Math_341_Spring_2020/blob/master/homeworks/hw02/hw02.pdf) (due 2/21)
 * Homework 1 [(download)](https://github.com/kapelner/QC_Math_341_Spring_2020/blob/master/homeworks/hw01/hw01.pdf?raw=true) [(view)](https://github.com/kapelner/QC_Math_341_Spring_2020/blob/master/homeworks/hw01/hw01.pdf) (due 2/10)
 * Homework 0 [(syllabus, page 6)](https://github.com/kapelner/QC_Math_341_Spring_2020/blob/master/syllabus/syllabus.pdf?raw=true) (due 1/31)
 
