@@ -38,8 +38,8 @@ My lectures can be listened to as youtube tracks and lecture notes are also scan
 
 <!--
 * Homework 7 [(download)](https://github.com/kapelner/QC_Math_341_Spring_2020/blob/master/homeworks/hw07/hw07.pdf?raw=true) [(view)](https://github.com/kapelner/QC_Math_341_Spring_2020/blob/master/homeworks/hw07/hw07.pdf) (due 5/18)
-* Homework 6 [(download)](https://github.com/kapelner/QC_Math_341_Spring_2020/blob/master/homeworks/hw06/hw06.pdf?raw=true) [(view)](https://github.com/kapelner/QC_Math_341_Spring_2020/blob/master/homeworks/hw06/hw06.pdf) (due 5/14)
-* Homework 5 [(download)](https://github.com/kapelner/QC_Math_341_Spring_2020/blob/master/homeworks/hw05/hw05.pdf?raw=true) [(view)](https://github.com/kapelner/QC_Math_341_Spring_2020/blob/master/homeworks/hw05/hw05.pdf) (due 4/17)-->
+* Homework 6 [(download)](https://github.com/kapelner/QC_Math_341_Spring_2020/blob/master/homeworks/hw06/hw06.pdf?raw=true) [(view)](https://github.com/kapelner/QC_Math_341_Spring_2020/blob/master/homeworks/hw06/hw06.pdf) (due 5/14)-->
+* Homework 5 [(download)](https://github.com/kapelner/QC_Math_341_Spring_2020/blob/master/homeworks/hw05/hw05.pdf?raw=true) [(view)](https://github.com/kapelner/QC_Math_341_Spring_2020/blob/master/homeworks/hw05/hw05.pdf) (due 3/29)
 * Homework 4 [(download)](https://github.com/kapelner/QC_Math_341_Spring_2020/blob/master/homeworks/hw04/hw04.pdf?raw=true) [(view)](https://github.com/kapelner/QC_Math_341_Spring_2020/blob/master/homeworks/hw04/hw04.pdf) (due 3/16)
 * Homework 3 [(download)](https://github.com/kapelner/QC_Math_341_Spring_2020/blob/master/homeworks/hw03/hw03.pdf?raw=true) [(view)](https://github.com/kapelner/QC_Math_341_Spring_2020/blob/master/homeworks/hw03/hw03.pdf) (due 2/28)
 * Homework 2 [(download)](https://github.com/kapelner/QC_Math_341_Spring_2020/blob/master/homeworks/hw02/hw02.pdf?raw=true) [(view)](https://github.com/kapelner/QC_Math_341_Spring_2020/blob/master/homeworks/hw02/hw02.pdf) (due 2/21)
@@ -51,9 +51,9 @@ My lectures can be listened to as youtube tracks and lecture notes are also scan
 
 * Midterm I is Thurs, Feb 27 (in class). [(exam)](https://github.com/kapelner/QC_Math_341_Spring_2020/blob/master/exams/midterm1/midterm1.pdf) [(exam solutions)](https://github.com/kapelner/QC_Math_341_Spring_2020/blob/master/exams/midterm1/midterm1_solutions.pdf)
 
-* Midterm II is Tues, Mar 31 (in class). 
+* Midterm II is Tues, Mar 31 (on Zoom). 
 
-* Final is Thurs, May 21 8:30AM-10:30AM (location TBA) but this date may change based on democratic vote.
+* Final is Thurs, May 21 8:30AM-10:30AM (on Zoom?) but this date may change based on democratic vote.
 
 ## Practice Exams
 
