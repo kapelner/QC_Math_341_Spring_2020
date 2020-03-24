@@ -7,19 +7,19 @@ This is the course homepage for Math 341 (and Masters level 650.3-02) for the Sp
 My lectures can be listened to as youtube tracks and lecture notes are also scanned in as PDF files contributed by students and myself.
 
 <!--     
-* Lecture 23 [(audio)](https://youtu.be/TZHM6K2CSyo) [(Prof)](https://github.com/kapelner/QC_Math_341_Spring_2020/blob/master/lectures/lec23kap.pdf)
-* Lecture 22 [(audio)](https://youtu.be/cvpmFXVtLsw) [(Prof)](https://github.com/kapelner/QC_Math_341_Spring_2020/blob/master/lectures/lec22kap.pdf)
-* Lecture 21 [(audio)](https://youtu.be/yRCKCEGgFY4) [(Prof)](https://github.com/kapelner/QC_Math_341_Spring_2020/blob/master/lectures/lec21kap.pdf) 
-* Lecture 20 [(audio)](https://youtu.be/rXg20Jasgt8) [(Prof)](https://github.com/kapelner/QC_Math_341_Spring_2020/blob/master/lectures/lec20kap.pdf)
-* Lecture 19 [(audio)](https://youtu.be/klf2R2xsUWo) [(Prof)](https://github.com/kapelner/QC_Math_341_Spring_2020/blob/master/lectures/lec19kap.pdf)
-* Review 2 [(audio)](https://youtu.be/_7kmwQPnNwY)
-* Lecture 18 [(audio)](https://youtu.be/6tYEyrlpOe8) [(Prof)](https://github.com/kapelner/QC_Math_341_Spring_2020/blob/master/lectures/lec18kap.pdf)
-* Lecture 17 [(audio)](https://youtu.be/7g1MVcRsZqI) [(Prof)](https://github.com/kapelner/QC_Math_341_Spring_2020/blob/master/lectures/lec17kap.pdf)
-* Lecture 16 [(audio)](https://youtu.be/NoUyK0ex8KA) [(Prof)](https://github.com/kapelner/QC_Math_341_Spring_2020/blob/master/lectures/lec16kap.pdf)
-* Lecture 15 [(audio)](https://youtu.be/u69vd8-_xFI) [(Prof)](https://github.com/kapelner/QC_Math_341_Spring_2020/blob/master/lectures/lec15kap.pdf)
-* Lecture 14 [(audio)](https://youtu.be/_0DSEAL8Xgw) [(Prof)](https://github.com/kapelner/QC_Math_341_Spring_2020/blob/master/lectures/lec14kap.pdf)
-* Lecture 13 [(Prof)](https://github.com/kapelner/QC_Math_341_Spring_2020/blob/master/lectures/lec13kap.pdf) -->
-* Lecture 12 [(video)](https://app.slack.com/client/TVD92E9RR/browse-files/files/F010ECRJB96) [(Ah Yong Shin)](https://github.com/kapelner/QC_Math_341_Spring_2020/blob/master/lectures/lec12shin.pdf) [(Antoinette Hemlall)](https://github.com/kapelner/QC_Math_341_Spring_2020/blob/master/lectures/lec12hemlall.pdf) [(Junhao Du)](https://github.com/kapelner/QC_Math_341_Spring_2020/blob/master/lectures/lec12du.pdf)
+* Lecture 23 [(video)](https://app.slack.com/client/TVD92E9RR/browse-files/files/F010ECRJB96) [(Prof)](https://github.com/kapelner/QC_Math_341_Spring_2020/blob/master/lectures/lec23kap.pdf)
+* Lecture 22 [(video)](https://app.slack.com/client/TVD92E9RR/browse-files/files/F010ECRJB96) [(Prof)](https://github.com/kapelner/QC_Math_341_Spring_2020/blob/master/lectures/lec22kap.pdf)
+* Lecture 21 [(video)](https://app.slack.com/client/TVD92E9RR/browse-files/files/F010ECRJB96) [(Prof)](https://github.com/kapelner/QC_Math_341_Spring_2020/blob/master/lectures/lec21kap.pdf) 
+* Lecture 20 [(video)](https://app.slack.com/client/TVD92E9RR/browse-files/files/F010ECRJB96) [(Prof)](https://github.com/kapelner/QC_Math_341_Spring_2020/blob/master/lectures/lec20kap.pdf)
+* Lecture 19 [(video)](https://app.slack.com/client/TVD92E9RR/browse-files/files/F010ECRJB96) [(Prof)](https://github.com/kapelner/QC_Math_341_Spring_2020/blob/master/lectures/lec19kap.pdf)
+* Review 2 [(video)](https://app.slack.com/client/TVD92E9RR/browse-files/files/F010ECRJB96)
+* Lecture 18 [(video)](https://app.slack.com/client/TVD92E9RR/browse-files/files/F010ECRJB96) [(Prof)](https://github.com/kapelner/QC_Math_341_Spring_2020/blob/master/lectures/lec18kap.pdf)
+* Lecture 17 [(video)](https://app.slack.com/client/TVD92E9RR/browse-files/files/F010ECRJB96) [(Prof)](https://github.com/kapelner/QC_Math_341_Spring_2020/blob/master/lectures/lec17kap.pdf)
+* Lecture 16 [(video)](https://app.slack.com/client/TVD92E9RR/browse-files/files/F010ECRJB96) [(Prof)](https://github.com/kapelner/QC_Math_341_Spring_2020/blob/master/lectures/lec16kap.pdf)
+* Lecture 15 [(video)](https://app.slack.com/client/TVD92E9RR/browse-files/files/F010ECRJB96) [(Prof)](https://github.com/kapelner/QC_Math_341_Spring_2020/blob/master/lectures/lec15kap.pdf)
+* Lecture 14 [(video)](https://app.slack.com/client/TVD92E9RR/browse-files/files/F010ECRJB96) [(Prof)](https://github.com/kapelner/QC_Math_341_Spring_2020/blob/master/lectures/lec14kap.pdf) -->
+* Lecture 13 [(video)](https://app.slack.com/client/TVD92E9RR/browse-files/files/F010ECRJB96) [(Prof)](https://github.com/kapelner/QC_Math_341_Spring_2020/blob/master/lectures/lec13kap.pdf)
+* Lecture 12 [(video)](https://app.slack.com/client/TVD92E9RR/browse-files/files/F010ECRJB96) [(Ah Yong Shin)](https://github.com/kapelner/QC_Math_341_Spring_2020/blob/master/lectures/lec12shin.pdf) [(Antoinette Hemlall)](https://github.com/kapelner/QC_Math_341_Spring_2020/blob/master/lectures/lec12hemlall.pdf) [(Junhao Du)](https://github.com/kapelner/QC_Math_341_Spring_2020/blob/master/lectures/lec12du.pdf) [(Prof)](https://github.com/kapelner/QC_Math_341_Spring_2020/blob/master/lectures/lec12kap.pdf)
 * Lecture 11 [(audio)](https://youtu.be/Qj-Q3vehOrg) [(Ah Yong Shin)](https://github.com/kapelner/QC_Math_341_Spring_2020/blob/master/lectures/lec11shin.pdf) [(Junhao Du)](https://github.com/kapelner/QC_Math_341_Spring_2020/blob/master/lectures/lec11du.pdf) [(Christella Nissanthan)](https://github.com/kapelner/QC_Math_341_Spring_2020/blob/master/lectures/lec11nissanthan.pdf)
 * Lecture 10 [(audio)](https://youtu.be/ogjjHMI5e5A) [(Ah Yong Shin)](https://github.com/kapelner/QC_Math_341_Spring_2020/blob/master/lectures/lec10shin.pdf) [(Adriana Sham)](https://github.com/kapelner/QC_Math_341_Spring_2020/blob/master/lectures/lec10Sham.pdf) [(Junhao Du)](https://github.com/kapelner/QC_Math_341_Spring_2020/blob/master/lectures/lec10du.pdf) [(Christella Nissanthan)](https://github.com/kapelner/QC_Math_341_Spring_2020/blob/master/lectures/lec10nissanthan.pdf)
 * Lecture 9 [(audio)](https://youtu.be/xb1aKYcZ24g) [(Ah Yong Shin)](https://github.com/kapelner/QC_Math_341_Spring_2020/blob/master/lectures/lec09shin.pdf) [(Adriana Sham)](https://github.com/kapelner/QC_Math_341_Spring_2020/blob/master/lectures/lec09Sham.pdf) [(Junhao Du)](https://github.com/kapelner/QC_Math_341_Spring_2020/blob/master/lectures/lec09du.pdf) [(Christella Nissanthan)](https://github.com/kapelner/QC_Math_341_Spring_2020/blob/master/lectures/lec09nissanthan.pdf)
@@ -82,15 +82,14 @@ My lectures can be listened to as youtube tracks and lecture notes are also scan
 
 I *want* you to come to office hours! My office hours are:
 
-Time: Tues/Thurs 10:30-11AM\
-Location: Kiely Hall 283 (the classroom)\
-Time: Friday, 10:50-11:20AM (except April 17)\
-Location: Kiely Hall 061
+Time: Tues/Thurs 11:10-11:40AM\
+Time: Friday, 11AM-noon (except April 17)\
+Location: on Zoom\
 
-In addition, Abhinav Patil, the course TA, will hold office hours as well:
+<!--In addition, Abhinav Patil, the course TA, will hold office hours as well:
 
 Time: Wed 3:15-4:15PM\
-Location: Kiely Hall 5th floor math lounge
+Location: Kiely Hall 5th floor math lounge-->
 
 ## Grades and Class Standing
 
