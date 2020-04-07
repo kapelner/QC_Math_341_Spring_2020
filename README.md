@@ -37,7 +37,7 @@ My lectures can be listened to as youtube tracks and lecture notes are also scan
 ## Homeworks
 
 <!--
-* Homework 8 [(download)](https://github.com/kapelner/QC_Math_341_Spring_2020/blob/master/homeworks/hw07/hw07.pdf?raw=true) [(view)](https://github.com/kapelner/QC_Math_341_Spring_2020/blob/master/homeworks/hw07/hw07.pdf) (due 5/18)
+* Homework 8 [(download)](https://github.com/kapelner/QC_Math_341_Spring_2020/blob/master/homeworks/hw08/hw08.pdf?raw=true) [(view)](https://github.com/kapelner/QC_Math_341_Spring_2020/blob/master/homeworks/hw08/hw08.pdf) (due 5/18)
 * Homework 7 [(download)](https://github.com/kapelner/QC_Math_341_Spring_2020/blob/master/homeworks/hw07/hw07.pdf?raw=true) [(view)](https://github.com/kapelner/QC_Math_341_Spring_2020/blob/master/homeworks/hw07/hw07.pdf) (due 5/18)-->
 * Homework 6 [(download)](https://github.com/kapelner/QC_Math_341_Spring_2020/blob/master/homeworks/hw06/hw06.pdf?raw=true) [(view)](https://github.com/kapelner/QC_Math_341_Spring_2020/blob/master/homeworks/hw06/hw06.pdf) (due 4/20)
 * Homework 5 [(download)](https://github.com/kapelner/QC_Math_341_Spring_2020/blob/master/homeworks/hw05/hw05.pdf?raw=true) [(view)](https://github.com/kapelner/QC_Math_341_Spring_2020/blob/master/homeworks/hw05/hw05.pdf) (due 3/29)
@@ -83,9 +83,9 @@ My lectures can be listened to as youtube tracks and lecture notes are also scan
 
 I *want* you to come to office hours! My office hours are:
 
-Time: Tues/Thurs 11:10-11:40AM\
-Time: Friday, 11AM-noon (except April 17)\
-Location: on Zoom
+Time: Tues/Thurs 11:00-11:30AM\
+Time: Friday, 11-11:30AM\
+Location: on Zoom\
 
 <!--In addition, Abhinav Patil, the course TA, will hold office hours as well:
 
