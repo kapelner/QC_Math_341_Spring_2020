@@ -1,0 +1,287 @@
+\documentclass[12pt]{article}
+%\documentclass[12pt,landscape]{article}
+
+
+\include{preamble}
+
+\newcommand{\instr}{Your answer will consist of a string (e.g. \texttt{aebgd}) where the order of the letters does not matter nor does upper / lowercase.}
+
+\title{Math 341 Spring 2020 \\ Midterm Examination Two}
+\author{Professor Adam Kapelner}
+
+\date{Thursday, April 23, 2020}
+
+\begin{document}
+\maketitle
+
+%\noindent Full Name \line(1,0){410}
+
+\thispagestyle{empty}
+
+\section*{Code of Academic Integrity}
+
+\footnotesize
+Since the college is an academic community, its fundamental purpose is the pursuit of knowledge. Essential to the success of this educational mission is a commitment to the principles of academic integrity. Every member of the college community is responsible for upholding the highest standards of honesty at all times. Students, as members of the community, are also responsible for adhering to the principles and spirit of the following Code of Academic Integrity.
+
+Activities that have the effect or intention of interfering with education, pursuit of knowledge, or fair evaluation of a student's performance are prohibited. Examples of such activities include but are not limited to the following definitions:
+
+\paragraph{Cheating} Using or attempting to use unauthorized assistance, material, or study aids in examinations or other academic work or preventing, or attempting to prevent, another from using authorized assistance, material, or study aids. Example: using an unauthorized cheat sheet in a quiz or exam, altering a graded exam and resubmitting it for a better grade, etc.
+\\
+
+\noindent I acknowledge and agree to uphold this Code of Academic Integrity. \\
+
+%\begin{center}
+%\line(1,0){250} ~~~ \line(1,0){100}\\
+%~~~~~~~~~~~~~~~~~~~~~signature~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ date
+%\end{center}
+
+\normalsize
+
+\section*{Instructions}
+
+This exam is 80 minutes (variable time per question) and closed-book. You are allowed \textbf{one} page (front and back) of a \qu{cheat sheet}, one table of reference and scrap paper but no graphing calculator. Please read the questions carefully. No food is allowed, only drinks. %If the question reads \qu{compute,} this means the solution will be a number otherwise you can leave the answer in \textit{any} widely accepted mathematical notation which could be resolved to an exact or approximate number with the use of a computer. I advise you to skip problems marked \qu{[Extra Credit]} until you have finished the other questions on the exam, then loop back and plug in all the holes. I also advise you to use pencil. The exam is 100 points total plus extra credit. Partial credit will be granted for incomplete answers on most of the questions. \fbox{Box} in your final answers. Good luck!
+
+\pagebreak
+
+
+\problem [8min] We return the topic of inference for a new player's baseball batting average, the $\theta$ in a binomial likelihood for $n$ at bats. Using previous data, we create an informative prior of $\alpha = 42.3$ and $\beta = 127.7$. 
+
+\benum
+
+\subquestionwithpoints{10} A new player enters baseball and he has 3 hits out of 7 at bats. What is the probability of the next 40 at bats he will have 11 or more hits. Record the letter(s) of all the following that are \textbf{true}. 
+
+
+\begin{enumerate}[(a)]
+\item pbinom(11, 40, 3 / 7)
+\item 1 - pbinom(10, 40, 3 / 7)
+\item pbetabinom(11, 40, 3 / 7)
+\item 1 - pbetabinom(10, 40, 3 / 7)
+\item pbetabinom(11, 40, 42.3, 127.7)
+\item 1 - pbetabinom(10, 42.3, 127.7)
+\item pbetabinom(11, 40, 45.3, 131.7)
+\item 1 - pbetabinom(10, 45.3, 131.7)
+\item $\displaystyle\sum_{x_* = 11}^{40} \binom{40}{x_*} \frac{B(45.3 +x_*, 171.7 - x_*)}{B(45.3, 131.7)}$
+\item 1 - $\displaystyle\sum_{x_* = 1}^{10} \binom{40}{x_*} \frac{B(45.3 +x_*, 171.7 - x_*)}{B(45.3, 131.7)}$
+\end{enumerate}
+\eenum\instr\pagebreak
+
+%%%%%%%%%%%%%%%%%%%%%%%%
+
+\problem [8min] Let $X \sim \normnot{\theta}{\sigsq}$ and let $k$ denote the \emph{fully reduced} kernel of a distribution.
+
+\benum
+
+\subquestionwithpoints{12} Record the letter(s) of all the following that are \textbf{true}.
+
+
+\begin{enumerate}[(a)]
+%\item $\cprob{X}{\theta,\sigsq} = \tothepow{2\pi\sigsq}{-\half}e^{-\oneover{2\sigsq}(x - \theta)^2}$
+
+\item $\ck{X}{\theta,\sigsq} = \displaystyle\tothepow{\sigsq}{-\half}e^{-\oneover{2\sigsq}(x - \theta)^2}$
+\item $\ck{\sigsq}{\theta,X} = \displaystyle\tothepow{\sigsq}{-\half}e^{-\oneover{2\sigsq}(x - \theta)^2}$
+\item $\ck{\theta}{\sigsq,X} = \displaystyle\tothepow{\sigsq}{-\half}e^{-\oneover{2\sigsq}(x - \theta)^2}$
+
+\item $\ck{X}{\theta,\sigsq} = e^{-\oneover{2\sigsq}(x - \theta)^2}$
+\item $\ck{\sigsq}{\theta,X} = e^{-\oneover{2\sigsq}(x - \theta)^2}$
+\item $\ck{\theta}{\sigsq,X} = e^{-\oneover{2\sigsq}(x - \theta)^2}$
+
+\item $\ck{X}{\theta,\sigsq} = e^{-\frac{x^2}{2\sigsq}}e^{\frac{\theta x}{\sigsq}}$
+\item $\ck{\sigsq}{\theta,X} = e^{-\frac{x^2}{2\sigsq}}e^{\frac{\theta x}{\sigsq}}$
+\item $\ck{\theta}{\sigsq,X} = e^{-\frac{x^2}{2\sigsq}}e^{\frac{\theta x}{\sigsq}}$
+
+\item $\ck{X}{\theta,\sigsq} = e^{-\frac{\theta^2}{2\sigsq}}e^{\frac{\theta x}{\sigsq}}$
+\item $\ck{\sigsq}{\theta,X} = e^{-\frac{\theta^2}{2\sigsq}}e^{\frac{\theta x}{\sigsq}}$
+\item $\ck{\theta}{\sigsq,X} = e^{-\frac{\theta^2}{2\sigsq}}e^{\frac{\theta x}{\sigsq}}$
+\end{enumerate}
+\eenum\instr\pagebreak
+
+%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\problem [8min] Let $\Xoneton \iid \poisson{\theta}$ and use the Jeffrey's prior for $\theta$. We wish to test if $\theta > 1$.
+
+\benum
+
+\subquestionwithpoints{10} Record the letter(s) of all the following expressions that correctly compute the Bayesian p-value at the $\alpha_0 = 5\%$ level.
+
+
+\begin{enumerate}[(a)]
+\item pgamma(0.05, $\sum x_i + 0.5, n$)
+\item 1 - pgamma(0.05, $\sum x_i + 0.5, n$)
+\item pgamma(1, $\sum x_i + 0.5, n$)
+\item 1 - pgamma(0.05, $\sum x_i + 0.5, n$)
+\item qgamma(0.05, $\sum x_i + 0.5, n$)
+\item $[$qgamma(0.025, $\sum x_i + 0.5, n$), qgamma(0.975, $\sum x_i + 0.5, n$)$]$
+\item pgamma(0.05, $\sum x_i, n$)
+\item 1 - pgamma(0.05, $\sum x_i , n$)
+\item pgamma(1, $\sum x_i, n$)
+\item 1 - pgamma(1, $\sum x_i, n$)
+\end{enumerate}
+\eenum\instr\pagebreak
+
+%%%%%%%%%%%%%%%%%%%%%%%%
+
+\problem [8min] Let $\Xoneton \iid \poisson{\theta}$ and use the prior of indifference for $\theta$. We wish to find the probability that $x_* = 5$, i.e. the realization of the next observation is equal to 5.
+
+\benum
+
+\subquestionwithpoints{8} Record the letter(s) of all the following expressions that correctly compute the probability of interest.
+
+
+\begin{enumerate}[(a)]
+\item pgamma($5, \sum x_i + 1, n$)
+\item dgamma($5, \sum x_i + 1, n$)
+\item qnbinom($n / (n + 1), \sum x_i + 1, 5$)
+\item dnbinom($5, \sum x_i + 1, n / (n + 1)$)
+\item ppois(5, $\xbar$)
+\item ppois(5, $\theta$)
+\item dpois(5, $\theta$)
+\item dpois(5, $\xbar$)
+\end{enumerate}
+\eenum\instr\pagebreak
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%
+
+\problem [8min] Let $\mathcal{F}$ be the $\iid$ normal model with $\sigsq$ known. You wish to design a prior that has the strength of 3 observations centered at 1.
+\benum
+
+\subquestionwithpoints{10} Record the letter(s) of all the following expressions that correctly specify this prior.
+
+
+\begin{enumerate}[(a)]
+\item $\cprob{\theta}{\sigsq} = \normnot{0}{3}$
+\item $\cprob{\theta}{\sigsq} = \normnot{0}{\infty}$
+\item $\cprob{\theta}{\sigsq} = \normnot{1}{\sigsq / 3}$
+\item $\cprob{\theta}{\sigsq} = \normnot{1}{\sigsq / 3^2}$
+\item $\cprob{\theta}{\sigsq} = \normnot{1}{\sigsq}$
+\item $\cprob{\theta}{\sigsq} = \invgammanot{3/2}{3/2}$
+\item $\cprob{\theta}{\sigsq} = \invgammanot{3/2}{3\sigsq/2}$
+\item $\cprob{\theta}{\sigsq} = \invgammanot{3}{3\sigsq}$
+\item $\cprob{\theta}{\sigsq} = \invgammanot{3}{\infty}$
+\item $\cprob{\theta}{\sigsq} = \invgammanot{1}{\infty}$
+\end{enumerate}
+\eenum\instr\pagebreak
+
+%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\problem [8min] Let $\mathcal{F}$ be the $\iid$ normal model with $\sigsq$ known. Using the Laplace prior, find the probability that $\theta$ is greater than $\xbar$.
+\benum
+
+\subquestionwithpoints{8} Record the letter(s) of all the following expressions that correctly compute this probability. 
+
+
+\begin{enumerate}[(a)]
+\item 0.5
+\item $\prob{\theta > \thetahatmmse}$
+\item $\prob{\theta > \thetahatmmae}$
+\item $\prob{\theta > \thetahatmap}$
+\item pnorm(0.5, $\xbar$, $\sigma / \sqrt{n}$)
+\item qnorm(0.5, $\xbar$, $\sigma / \sqrt{n}$)
+\item pnorm($\xbar$, $\xbar$, $\sigma / \sqrt{n}$)
+\item 1 - pnorm($\xbar$, $\xbar$, $\sigma / \sqrt{n}$)
+\end{enumerate}
+\eenum\instr\pagebreak
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%
+
+\problem [8min] Let $\mathcal{F}$ be the $\iid$ normal model with $n = 20$ observations, a data average of $\xbar = 13.9$ and $\sigsq = 5^2$. Using the Jeffrey's prior, find the distribution that the next observation $x_*$ is realized from.
+
+\benum
+\subquestionwithpoints{12} Record the letter(s) of all the following expressions that correctly compute this probability.
+
+\begin{enumerate}[(a)]
+\item $\normnot{13.9}{5^2}$
+\item $\normnot{13.9}{5^2 / 20}$
+\item $\normnot{13.9}{5^2 + 5^2 / 20}$
+\item $\normnot{13.9}{(5 + 5 / \sqrt{20})^2}$
+\item $T_{13.9}\parens{5^2}$
+\item $T_{13.9}\parens{5^2 / 20}$
+\item $T_{13.9}\parens{5^2 + 5^2 / 20}$
+\item $T_{13.9}\parens{(5 + 5 / \sqrt{20})^2}$
+\item $T_{20}\parens{13.9, 5^2}$
+\item $T_{20}\parens{13.9, 5^2 / 20}$
+\item $T_{20}\parens{13.9, 5^2 + 5^2 / 20}$
+\item $T_{20}\parens{13.9, (5 + 5 / \sqrt{20})^2}$
+\end{enumerate}
+\eenum\instr\pagebreak
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\problem [8min] Let $\mathcal{F}$ be the $\iid$ normal model with $\theta$ known. If you wished to design a prior based on two pseudo-observations, $y_1 = 0$ and $y_1 = 1$, what would the prior form be?
+
+\benum
+
+\subquestionwithpoints{10} Record the letter(s) of all the following expressions that correctly specify the prior distribution.
+
+\begin{enumerate}[(a)]
+\item $\cprob{\sigsq}{\theta} = \invgammanot{0}{0}$
+\item $\cprob{\sigsq}{\theta} = \invgammanot{1}{0}$
+\item $\cprob{\sigsq}{\theta} = \invgammanot{1/2}{1/2}$
+\item $\cprob{\sigsq}{\theta} = \invgammanot{1/2}{\theta^2(1-\theta)^2/2}$
+\item $\cprob{\sigsq}{\theta} = \invgammanot{1}{\theta^2(1-\theta)^2/2}$
+\item $\cprob{\sigsq}{\theta} = \invgammanot{1}{\theta^2(1-\theta)^2}$
+\item $\cprob{\sigsq}{\theta} = \normnot{0}{0.5}$
+\item $\cprob{\sigsq}{\theta} = \normnot{0}{\infty}$
+\item $\cprob{\sigsq}{\theta} = \normnot{0.5}{\sigsq / 2}$
+\item $\cprob{\sigsq}{\theta} = $ Deg(0)
+\end{enumerate}
+\eenum\instr\pagebreak
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\problem [8min] Let $\mathcal{F}$ be the $\iid$ normal model with $\theta = 0$ i.e. the mean is known to be zero. Let the prior be Jeffrey's and you then observe $x_1 = 3.45, x_2 = 1.87$ and $x_3 = 5.03$.
+
+\benum
+
+\subquestionwithpoints{10} Record the letter(s) of all the following expressions that provide a Bayesian estimate (rounded to the nearest two decimals). This Bayesian estimate must be one we studied in this class.
+
+\begin{enumerate}[(a)]
+\item 2.50
+\item 1.58
+\item qgamma(0.5, 3, 40.70)
+\item qgamma(0.5, 1.5, 20.35)
+\item qinvgamma(0.5, 3, 40.70)
+\item qinvgamma(0.5, 1.5, 20.35) %%
+\item 40.70 %%
+\item 13.57
+\item 8.14 %%
+\item 0
+\end{enumerate}
+\eenum\instr\pagebreak
+
+%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\problem [8min] Let $\mathcal{F}$ be the $\iid$ normal model with $\theta = 0$ i.e. the mean is known to be zero. Let the prior be Jeffrey's and you then observe $x_1 = 3.45, x_2 = 1.87$ and $x_3 = 5.03$. We are interested in the distribution that $x_*$, the next observation, is drawn from.
+
+\benum
+
+\subquestionwithpoints{10} Record the letter(s) of all the following expressions that provide the correct posterior predictive distribution with parameters specified to the nearest two decimal places.
+
+\begin{enumerate}[(a)]
+\item $T_{3}\parens{3.45, 2.50}$
+\item $T_{3}\parens{3.45, 13.57}$
+\item $T_{3}\parens{0, 2.50}$
+\item $T_{3}\parens{0, 13.57}$
+\item $T_{3}\parens{0, 1.58^2 + 1.58^2 / 3}$
+\item $\normnot{0}{1.58^2}$
+\item $\normnot{3.45}{1.58^2}$
+\item $\normnot{0}{1.58^2 + 1.58^2 / 3}$
+\item $\normnot{3.45}{1.58^2 + 1.58^2 / 3}$
+\item $\normnot{0}{13.57}$
+\end{enumerate}
+\eenum\instr\pagebreak
+
+%%%%%%%%%%%%%%%%%%%%%%%%
+
+\end{document}

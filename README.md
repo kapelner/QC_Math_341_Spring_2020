@@ -52,7 +52,7 @@ My lectures can be listened to as youtube tracks and lecture notes are also scan
 
 * Midterm I is Thurs, Feb 27 (in class). [(exam)](https://github.com/kapelner/QC_Math_341_Spring_2020/blob/master/exams/midterm1/midterm1.pdf) [(exam solutions)](https://github.com/kapelner/QC_Math_341_Spring_2020/blob/master/exams/midterm1/midterm1_solutions.pdf)
 
-* Midterm II is Tues, Mar 31 (on Zoom). 
+* Midterm II is Tues, Apr 21 (on Zoom). [(exam)](https://github.com/kapelner/QC_Math_341_Spring_2020/blob/master/exams/midterm1/midterm1.pdf) [(exam solutions)](https://github.com/kapelner/QC_Math_341_Spring_2020/blob/master/exams/midterm1/midterm1_solutions.pdf) 
 
 * Final is Thurs, May 21 8:30AM-10:30AM (on Zoom?) but this date may change based on democratic vote.
 
