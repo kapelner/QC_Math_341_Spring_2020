@@ -8,12 +8,12 @@ My lectures can be listened to as youtube tracks and lecture notes are also scan
 
 <!--     
 * Lecture 23 video on slack [(Prof)](https://github.com/kapelner/QC_Math_341_Spring_2020/blob/master/lectures/lec23kap.pdf)
-* Lecture 22 video on slack [(Prof)](https://github.com/kapelner/QC_Math_341_Spring_2020/blob/master/lectures/lec22kap.pdf)
-* Lecture 21 video on slack [(Prof)](https://github.com/kapelner/QC_Math_341_Spring_2020/blob/master/lectures/lec21kap.pdf) 
-* Lecture 20 video on slack [(Prof)](https://github.com/kapelner/QC_Math_341_Spring_2020/blob/master/lectures/lec20kap.pdf)
-* Lecture 19 video on slack [(Prof)](https://github.com/kapelner/QC_Math_341_Spring_2020/blob/master/lectures/lec19kap.pdf)
+* Lecture 22 video on slack [(Prof)](https://github.com/kapelner/QC_Math_341_Spring_2020/blob/master/lectures/lec22kap.pdf)-->
+* Lecture 21 video on slack [(Prof)](https://github.com/kapelner/QC_Math_341_Spring_2020/blob/master/lectures/lec21kap.pdf) [(Ah Yong Shin)](https://github.com/kapelner/QC_Math_341_Spring_2020/blob/master/lectures/lec21shin.pdf)  
+* Lecture 20 video on slack [(Prof)](https://github.com/kapelner/QC_Math_341_Spring_2020/blob/master/lectures/lec20kap.pdf) [(Ah Yong Shin)](https://github.com/kapelner/QC_Math_341_Spring_2020/blob/master/lectures/lec20shin.pdf)
+* Lecture 19 video on slack [(Prof)](https://github.com/kapelner/QC_Math_341_Spring_2020/blob/master/lectures/lec19kap.pdf) [(Ah Yong Shin)](https://github.com/kapelner/QC_Math_341_Spring_2020/blob/master/lectures/lec19shin.pdf)
 * Review 2 video on slack
-* Lecture 18 video on slack [(Prof)](https://github.com/kapelner/QC_Math_341_Spring_2020/blob/master/lectures/lec18kap.pdf) -->
+* Lecture 18 video on slack [(Prof)](https://github.com/kapelner/QC_Math_341_Spring_2020/blob/master/lectures/lec18kap.pdf) [(Rameasa Arna)](https://github.com/kapelner/QC_Math_341_Spring_2020/blob/master/lectures/lec18arna.pdf)
 * Lecture 17 and Review video on slack [(Prof)](https://github.com/kapelner/QC_Math_341_Spring_2020/blob/master/lectures/lec17kap.pdf) [(Ah Yong Shin)](https://github.com/kapelner/QC_Math_341_Spring_2020/blob/master/lectures/lec17shin.pdf)
 * Lecture 16 video on slack [(Prof)](https://github.com/kapelner/QC_Math_341_Spring_2020/blob/master/lectures/lec16kap.pdf) [(Antoinette Hemlall)](https://github.com/kapelner/QC_Math_341_Spring_2020/blob/master/lectures/lec16hemlall.pdf) [(Rameasa Arna)](https://github.com/kapelner/QC_Math_341_Spring_2020/blob/master/lectures/lec16arna.pdf) [(Christella Nissanthan)](https://github.com/kapelner/QC_Math_341_Spring_2020/blob/master/lectures/lec16nissanthan.pdf)
 * Lecture 15 video on slack [(Prof)](https://github.com/kapelner/QC_Math_341_Spring_2020/blob/master/lectures/lec15kap.pdf) [(Ah Yong Shin)](https://github.com/kapelner/QC_Math_341_Spring_2020/blob/master/lectures/lec15shin.pdf) [(Antoinette Hemlall)](https://github.com/kapelner/QC_Math_341_Spring_2020/blob/master/lectures/lec15hemlall.pdf) [(Christella Nissanthan)](https://github.com/kapelner/QC_Math_341_Spring_2020/blob/master/lectures/lec15nissanthan.pdf) [(Junhao Du)](https://github.com/kapelner/QC_Math_341_Spring_2020/blob/master/lectures/lec15du.pdf) [(Shakif Shadman)](https://github.com/kapelner/QC_Math_341_Spring_2020/blob/master/lectures/lec15shadman.pdf) [(Rameasa Arna)](https://github.com/kapelner/QC_Math_341_Spring_2020/blob/master/lectures/lec15arna.pdf)
@@ -36,8 +36,8 @@ My lectures can be listened to as youtube tracks and lecture notes are also scan
 
 ## Homeworks
 
-<!--
-* Homework 8 [(download)](https://github.com/kapelner/QC_Math_341_Spring_2020/blob/master/homeworks/hw08/hw08.pdf?raw=true) [(view)](https://github.com/kapelner/QC_Math_341_Spring_2020/blob/master/homeworks/hw08/hw08.pdf) (due 5/18)-->
+<!---->
+* Homework 8 [(download)](https://github.com/kapelner/QC_Math_341_Spring_2020/blob/master/homeworks/hw08/hw08.pdf?raw=true) [(view)](https://github.com/kapelner/QC_Math_341_Spring_2020/blob/master/homeworks/hw08/hw08.pdf) (due 5/19)
 * Homework 7 [(download)](https://github.com/kapelner/QC_Math_341_Spring_2020/blob/master/homeworks/hw07/hw07.pdf?raw=true) [(view)](https://github.com/kapelner/QC_Math_341_Spring_2020/blob/master/homeworks/hw07/hw07.pdf) (due 5/8)
 * Homework 6 [(download)](https://github.com/kapelner/QC_Math_341_Spring_2020/blob/master/homeworks/hw06/hw06.pdf?raw=true) [(view)](https://github.com/kapelner/QC_Math_341_Spring_2020/blob/master/homeworks/hw06/hw06.pdf) (due 4/20)
 * Homework 5 [(download)](https://github.com/kapelner/QC_Math_341_Spring_2020/blob/master/homeworks/hw05/hw05.pdf?raw=true) [(view)](https://github.com/kapelner/QC_Math_341_Spring_2020/blob/master/homeworks/hw05/hw05.pdf) (due 3/29)
@@ -54,7 +54,7 @@ My lectures can be listened to as youtube tracks and lecture notes are also scan
 
 * Midterm II is Tues, Apr 21 (on Zoom). [(exam)](https://github.com/kapelner/QC_Math_341_Spring_2020/blob/master/exams/midterm2/midterm2.pdf) [(exam solutions)](https://github.com/kapelner/QC_Math_341_Spring_2020/blob/master/exams/midterm2/midterm2_solutions.pdf) 
 
-* Final is Thurs, May 21 8:30AM-10:30AM (on Zoom) but this date / time may change based on democratic vote.
+* Final is Thurs, May 21 8:30AM-10:30AM (on Zoom). There will be a review the day prior from 11AM-1PM.
 
 ## Practice Exams
 
