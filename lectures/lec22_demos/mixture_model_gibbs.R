@@ -1,4 +1,5 @@
-library(MCMCpack)
+pacman::p_load(MCMCpack)
+
 set.seed(1984)
 n = 300
 
@@ -9,7 +10,7 @@ true_sigsq_2 = 1
 true_rho = 0.3
 
 
-x = c(rnorm(n * true_rho, true_theta_1, sqrt(true_sigsq_1)), rnorm(n * (1 - true_rho), true_theta_2, sqrt(true_sigsq_2)))
+x = sort(c(rnorm(n * true_rho, true_theta_1, sqrt(true_sigsq_1)), rnorm(n * (1 - true_rho), true_theta_2, sqrt(true_sigsq_2))))
 
 par(mfrow = c(1, 1))
 hist(x, br = 80) 
@@ -25,12 +26,13 @@ sigsq2s = array(NA, S)
 rhos = array(NA, S)
 Is = matrix(NA, nrow = n, ncol = S)
 #start positions
-theta1s[1] = mean(x)
-theta2s[1] = mean(x)
+theta1s[1] = quantile(x, .25) #ensure one begins lower than other
+theta2s[1] = quantile(x, .75) #ensure one begins lower than other
 sigsq1s[1] = var(x)
 sigsq2s[1] = var(x)
 rhos[1] = 0.5
-Is[, 1] = 0.5 
+Is[1 : (n / 2), 1] = 1
+Is[(n / 2 + 1) : n, 1] = 0
 
 for (t in 2 : S){
   theta1 = theta1s[t - 1]
@@ -61,7 +63,6 @@ for (t in 2 : S){
 
 ###assess convergence
 #plot
-B = 70
 ###
 par(mfrow = c(5, 1))
 S0 = 150
@@ -91,29 +92,36 @@ abline(h = mean(rhos[B : S0]), col = "blue")
 # abline(v = B, col = "grey")
 #plot
 
+
+B = 50
+
 ##assess autocorrelation
 
 par(mfrow = c(5, 1))
-Kmax = 35
+Kmax = 45
 acf(theta1s[B : S], xlim = c(0, Kmax), lag.max = Kmax)
 acf(theta2s[B : S], xlim = c(0, Kmax), lag.max = Kmax)
 acf(sigsq1s[B : S], xlim = c(0, Kmax), lag.max = Kmax)
 acf(sigsq2s[B : S], xlim = c(0, Kmax), lag.max = Kmax)
 acf(rhos[B : S], xlim = c(0, Kmax), lag.max = Kmax)
-T = 25
+THIN = 26
 #plot
 
 #burn and thin
 theta1s = theta1s[B : S]
-theta1s = theta1s[seq(1, S - B, by = T)]
+theta1s = theta1s[seq(1, S - B, by = THIN)]
 theta2s = theta2s[B : S]
-theta2s = theta2s[seq(1, S - B, by = T)]
+theta2s = theta2s[seq(1, S - B, by = THIN)]
 sigsq1s = sigsq1s[B : S]
-sigsq1s = sigsq1s[seq(1, S - B, by = T)]
+sigsq1s = sigsq1s[seq(1, S - B, by = THIN)]
 sigsq2s = sigsq2s[B : S]
-sigsq2s = sigsq2s[seq(1, S - B, by = T)]
+sigsq2s = sigsq2s[seq(1, S - B, by = THIN)]
 rhos = rhos[B : S]
-rhos = rhos[seq(1, S - B, by = T)]
+rhos = rhos[seq(1, S - B, by = THIN)]
+Is = Is[, B : S]
+Is = Is[, seq(1, S - B, by = THIN)]
+Is[1, ]
+Is[n, ]
 
 
 #look at posteriors with post-exp at 95% CI
@@ -150,3 +158,8 @@ abline(v = quantile(rhos, 0.025), col = "grey", lwd = 3)
 abline(v = quantile(rhos, 0.975), col = "grey", lwd = 3)
 abline(v = true_rho, col = "red", lwd = 3)
 #plot
+
+Is[1, ]
+Is[n, ]
+Is[n / 2, ]
+mean(Is[n / 2, ])

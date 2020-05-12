@@ -1,14 +1,14 @@
 # MATH 341 Bayesian Modeling Spring 2020
 
-This is the course homepage for Math 341 (and Masters level 650.3-02) for the Spring semester, 2019 at Queens College, City University of New York taught by Professor Adam Kapelner. The course syllabus can be found [here](https://github.com/kapelner/QC_Math_341_Spring_2020/blob/master/syllabus/syllabus.pdf). We are now using [slack](https://qcmath341.slack.com/) for class discussions and vidoes.
+This is the course homepage for Math 341 (and Masters level 650.3-02) at Queens College, City University of New York taught by Professor Adam Kapelner. The course syllabus can be found [here](https://github.com/kapelner/QC_Math_341_Spring_2020/blob/master/syllabus/syllabus.pdf). We are now using [slack](https://qcmath341.slack.com/) for class discussions and vidoes.
 
 ## Lectures
 
 My lectures can be listened to as youtube tracks and lecture notes are also scanned in as PDF files contributed by students and myself.
 
 <!--     
-* Lecture 23 video on slack [(Prof)](https://github.com/kapelner/QC_Math_341_Spring_2020/blob/master/lectures/lec23kap.pdf)
-* Lecture 22 video on slack [(Prof)](https://github.com/kapelner/QC_Math_341_Spring_2020/blob/master/lectures/lec22kap.pdf)-->
+* Lecture 23 video on slack [(Prof)](https://github.com/kapelner/QC_Math_341_Spring_2020/blob/master/lectures/lec23kap.pdf)-->
+* Lecture 22 video on slack [(Prof)](https://github.com/kapelner/QC_Math_341_Spring_2020/blob/master/lectures/lec22kap.pdf)
 * Lecture 21 video on slack [(Prof)](https://github.com/kapelner/QC_Math_341_Spring_2020/blob/master/lectures/lec21kap.pdf) [(Ah Yong Shin)](https://github.com/kapelner/QC_Math_341_Spring_2020/blob/master/lectures/lec21shin.pdf)  
 * Lecture 20 video on slack [(Prof)](https://github.com/kapelner/QC_Math_341_Spring_2020/blob/master/lectures/lec20kap.pdf) [(Ah Yong Shin)](https://github.com/kapelner/QC_Math_341_Spring_2020/blob/master/lectures/lec20shin.pdf)
 * Lecture 19 video on slack [(Prof)](https://github.com/kapelner/QC_Math_341_Spring_2020/blob/master/lectures/lec19kap.pdf) [(Ah Yong Shin)](https://github.com/kapelner/QC_Math_341_Spring_2020/blob/master/lectures/lec19shin.pdf)
