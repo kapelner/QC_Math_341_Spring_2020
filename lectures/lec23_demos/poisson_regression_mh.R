@@ -13,19 +13,19 @@ for (i in 1 : n){
 }
 plot(ts, ys)
 #plot
-
-par(mfrow = c(1,1))
-mod = lm(ys ~ ts)
-coef(mod)
-abline(a = coef(mod)[1], b = coef(mod)[2], col = "lightgray")
+# 
+# par(mfrow = c(1,1))
+# mod = lm(ys ~ ts)
+# coef(mod)
+# abline(a = coef(mod)[1], b = coef(mod)[2], col = "lightgray")
 
 #chains
-S = 100000
+S = 1e5
 beta0s = array(NA, S)
 beta1s = array(NA, S)
 #start vals
-beta0s[1] = 2
-beta1s[1] = 2
+beta0s[1] = 1
+beta1s[1] = 1
 accbeta0s = array(TRUE, S)
 accbeta1s = array(TRUE, S)
 
@@ -69,34 +69,38 @@ for (t in 2 : S){
 
 ###assess convergence
 S0 = 300
-B = 30
 par(mfrow = c(2, 1))
 
 plot(1 : S0, beta0s[1 : S0])
-abline(h = mean(beta0s[B : S0]), col = "blue")
-abline(h = true_beta0, col = "red")
-abline(v = B, col = "grey")
+# abline(h = mean(beta0s[B : S0]), col = "blue")
+# abline(h = true_beta0, col = "red")
+# abline(v = B, col = "grey")
 
 plot(1 : S0, beta1s[1 : S0])
-abline(h = mean(beta1s[B : S0]), col = "blue")
-abline(h = true_beta1, col = "red")
-abline(v = B, col = "grey")
+# abline(h = mean(beta1s[B : S0]), col = "blue")
+# abline(h = true_beta1, col = "red")
+# abline(v = B, col = "grey")
 #plot
+
+B = 165
 
 ##assess autocorrelation
 
 par(mfrow = c(2, 1))
-K=60
-acf(beta0s[B : S], xlim = c(0, K), lag.max = K)
-acf(beta1s[B : S], xlim = c(0, K), lag.max = K)
-T = 55
+K = 70
+acf(beta0s[B : S], xlim = c(0, K), ylim = c(0, 1), lag.max = K)
+acf(beta1s[B : S], xlim = c(0, K), ylim = c(0, 1), lag.max = K)
+acf(beta0s[B : S], xlim = c(0, K), ylim = c(0, 0.1), lag.max = K)
+acf(beta1s[B : S], xlim = c(0, K), ylim = c(0, 0.1), lag.max = K)
 #plot
+
+THIN = 50
 
 #burn and thin
 beta0s = beta0s[B : S]
-beta0s = beta0s[seq(1, S - B, by = T)]
+beta0s = beta0s[seq(1, S - B, by = THIN)]
 beta1s = beta1s[B : S]
-beta1s = beta1s[seq(1, S - B, by = T)]
+beta1s = beta1s[seq(1, S - B, by = THIN)]
 
 
 #look at posteriors with post-exp at 95% CI
