@@ -54,7 +54,7 @@ My lectures can be listened to as youtube tracks and lecture notes are also scan
 
 * Midterm II is Tues, Apr 21 (on Zoom). [(exam)](https://github.com/kapelner/QC_Math_341_Spring_2020/blob/master/exams/midterm2/midterm2.pdf) [(exam solutions)](https://github.com/kapelner/QC_Math_341_Spring_2020/blob/master/exams/midterm2/midterm2_solutions.pdf) 
 
-* Final is Thurs, May 21 8:30AM-10:30AM (on Zoom). There will be a review the day prior from 11AM-1PM.
+* Final is Thurs, May 21 8:30AM-10:30AM (on Zoom). There will be a review the day prior from 11AM-1PM. [(exam)](https://github.com/kapelner/QC_Math_341_Spring_2020/blob/master/exams/final/final.pdf) [(exam solutions)](https://github.com/kapelner/QC_Math_341_Spring_2020/blob/master/exams/final/final_solutions.pdf)
 
 ## Practice Exams
 

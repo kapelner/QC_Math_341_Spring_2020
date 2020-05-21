@@ -1,0 +1,387 @@
+\documentclass[12pt]{article}
+%\documentclass[12pt,landscape]{article}
+
+
+\include{preamble}
+
+\newcommand{\instr}{\scriptsize Your answer will consist of a string (e.g. \texttt{aebgd}) where the order of the letters does not matter nor does upper / lowercase. \normalsize}
+\newcommand{\recordletters}{\small Record the letter(s) of all the following that are \textbf{true}. \normalsize}
+
+\title{Math 341 Spring 2020 \\ Final Examination}
+\author{Professor Adam Kapelner}
+
+\date{Thursday, May 21, 2020}
+
+\begin{document}
+\maketitle
+
+%\noindent Full Name \line(1,0){410}
+
+\thispagestyle{empty}
+
+\section*{Code of Academic Integrity}
+
+\footnotesize
+Since the college is an academic community, its fundamental purpose is the pursuit of knowledge. Essential to the success of this educational mission is a commitment to the principles of academic integrity. Every member of the college community is responsible for upholding the highest standards of honesty at all times. Students, as members of the community, are also responsible for adhering to the principles and spirit of the following Code of Academic Integrity.
+
+Activities that have the effect or intention of interfering with education, pursuit of knowledge, or fair evaluation of a student's performance are prohibited. Examples of such activities include but are not limited to the following definitions:
+
+\paragraph{Cheating} Using or attempting to use unauthorized assistance, material, or study aids in examinations or other academic work or preventing, or attempting to prevent, another from using authorized assistance, material, or study aids. Example: using an unauthorized cheat sheet in a quiz or exam, altering a graded exam and resubmitting it for a better grade, etc.
+\\
+
+\noindent I acknowledge and agree to uphold this Code of Academic Integrity. \\
+
+%\begin{center}
+%\line(1,0){250} ~~~ \line(1,0){100}\\
+%~~~~~~~~~~~~~~~~~~~~~signature~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ date
+%\end{center}
+
+\normalsize
+
+\section*{Instructions}
+
+This exam is 120 minutes with a bathroom break (with time limit varying for each question). The exam has 145 points and your final score will be scaled out of 100\%. The exam is closed book but you are allowed \textbf{three} pages (front and back) of a \qu{cheat sheet}, one table of reference and scrap paper and a graphing calculator. Please read the questions carefully. No food is allowed, only drinks. %If the question reads \qu{compute,} this means the solution will be a number otherwise you can leave the answer in \textit{any} widely accepted mathematical notation which could be resolved to an exact or approximate number with the use of a computer. I advise you to skip problems marked \qu{[Extra Credit]} until you have finished the other questions on the exam, then loop back and plug in all the holes. I also advise you to use pencil. The exam is 100 points total plus extra credit. Partial credit will be granted for incomplete answers on most of the questions. \fbox{Box} in your final answers. Good luck!
+
+\pagebreak
+
+
+\problem [4min] We return the topic of inference for a baseball batting averages, the $\theta$ in a binomial model for a fixed number of $n$ at bats where the realization $x$ is the \# of hits.
+
+\benum\subquestionwithpoints{8} \recordletters
+
+\begin{enumerate}[(a)]
+\item $\prob{\theta} = \binomial{n}{\infty}$ is conjugate.
+\item $\prob{\theta} = \binomial{n}{\infty}$ is proper.
+\item $\prob{\theta} = \betanot{0}{0}$ is conjugate.
+\item $\prob{\theta} = \betanot{0}{0}$ is proper.
+\item $\prob{\theta} = \betanot{1}{1}$ is uninformative.
+\item $\prob{\theta} = \betanot{1}{1}$ is proper.
+\item $\prob{\theta} = \betanot{42.3}{127.7}$ is uninformative.
+\item $\prob{\theta} = \betanot{42.3}{127.7}$ is proper.
+\end{enumerate}\eenum\instr\pagebreak
+%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\problem [22min] Imagine the batter bats both leftie and rightie (both sides of the oncoming ball). The propensity to get a hit when batting leftie is $\theta_L$ and the propensity to get a hit on when batting rightie is $\theta_R$. He bats leftie $\rho$ proportion of the games. Let $I_i$ be the indicator variable indicating if he bats leftie for the $i$th game (it is equal to 1 when he bats leftie and equal to 0 if he bats rightie). There are $n$ independent at bats per game and $G$ independent total games per season and both $n$ and $G$ are known. The data $x_1, \ldots, x_G$ are number of hits per game. All other quantities are unknown.
+
+\benum\subquestionwithpoints{17} \recordletters
+
+\begin{enumerate}[(a)]
+\item $\cprob{X}{\theta_L, \theta_R, \rho} = \binomial{G}{\theta_L + \theta_R}$
+\item $\cprob{X}{\theta_L, \theta_R, \rho} = \binomial{G}{\rho\theta_L + (1-\rho)\theta_R}$
+\item $\cprob{X}{\theta_L, \theta_R, \rho} = \prod_{i=1}^G \parens{\rho\theta_L (1 - \theta_L) + (1-\rho)\theta_R (1 - \theta_R)}$
+\item $\cprob{X}{\theta_L, \theta_R, \rho} = \prod_{i=1}^G \parens{\rho\theta_L^{x_i} (1 - \theta_L)^{n - x_i} + (1-\rho)\theta_R^{x_i} (1 - \theta_R)^{n - x_i}}$
+\item $\cprob{X}{\theta_L, \theta_R, \rho} = \prod_{i=1}^G \parens{\rho\binom{n}{x_i}\theta_L^{x_i} (1 - \theta_L)^{n - x_i} + (1-\rho) \binom{n}{x_i} \theta_R^{x_i} (1 - \theta_R)^{n - x_i}}$
+\item $\cprob{X}{\theta_L, \theta_R, \rho, I_1, \ldots, I_G} = \prod_{i=1}^G \parens{\rho\theta_L^{x_i} (1 - \theta_L)^{n - x_i} + (1-\rho)\theta_R^{x_i} (1 - \theta_R)^{n - x_i}}$
+\item $\cprob{X}{\theta_L, \theta_R, \rho, I_1, \ldots, I_G} =$ \\ $\prod_{i=1}^G \parens{\tothepow{\rho \binom{n}{x_i} \theta_L^{x_i} (1 - \theta_L)^{n - x_i}}{I_i} + \tothepow{(1-\rho) \binom{n}{x_i} \theta_R^{x_i} (1 - \theta_R)^{n - x_i}}{1 - I_i}}$
+\item $\cprob{X}{\theta_L, \theta_R, \rho, I_1, \ldots, I_G} = \prod_{i=1}^G \tothepow{\rho\binom{n}{x_i}\theta_L^{x_i} (1 - \theta_L)^{n - x_i}}{I_i} \tothepow{(1-\rho)\binom{n}{x_i}\theta_R^{x_i} (1 - \theta_R)^{n - x_i}}{1 - I_i}$
+\item $\cprob{X}{\theta_L, \theta_R, \rho, I_1, \ldots, I_G} = \prod_{i=1}^G \tothepow{\binom{n}{x_i}\theta_L^{x_i} (1 - \theta_L)^{n - x_i}}{I_i} \tothepow{\binom{n}{x_i}\theta_R^{x_i} (1 - \theta_R)^{n - x_i}}{1 - I_i}$
+\item $\cprob{X}{\theta_L, \theta_R, \rho, I_1, \ldots, I_G} = \prod_{i=1}^G \binom{n}{x_i} \prod_{i=1}^G \tothepow{\theta_L^{x_i} (1 - \theta_L)^{n - x_i}}{I_i} \tothepow{\theta_R^{x_i} (1 - \theta_R)^{n - x_i}}{1 - I_i}$
+\item $\cprob{\theta_L, \theta_R, \rho, I_1, \ldots, I_G}{X} = \cprob{X}{\theta_L, \theta_R, \rho, I_1, \ldots, I_G}$
+\item $\cprob{\theta_L, \theta_R, \rho, I_1, \ldots, I_G}{X} = \cprob{X}{\theta_L, \theta_R, \rho, I_1, \ldots, I_G}\prob{\theta_L, \theta_R, \rho, I_1, \ldots, I_G}$
+\item $\cprob{\theta_L, \theta_R, \rho, I_1, \ldots, I_G}{X} \propto \cprob{X}{\theta_L, \theta_R, \rho, I_1, \ldots, I_G}\prob{\theta_L, \theta_R, \rho, I_1, \ldots, I_G}$
+\item $\prob{\theta_L, \theta_R, \rho, I_1, \ldots, I_G} = \prob{\theta_L, \theta_R}\prob{\rho, I_1, \ldots, I_G}$ if $\theta_L, \theta_R$ are independent of $\rho, I_1, \ldots, I_G$.
+\item $\prob{\theta_L, \theta_R, \rho, I_1, \ldots, I_G} = \prob{\theta_L}\prob{\theta_R}\prob{\rho}\cprob{I_1, \ldots, I_G}{\rho}$ if $\theta_L, \theta_R$ are independent of $\rho, I_1, \ldots, I_G$ and $\theta_L, \theta_R$ are independent of each other.
+\item $\cprob{I_1, \ldots, I_G}{\rho} = \binomial{G}{\rho}$
+\item $\cprob{I_1, \ldots, I_G}{\rho} = \rho^{\sum_{i=1}^G I_i} (1 - \rho)^{\sum_{i=1}^G (1 - I_i)}$
+\end{enumerate}\eenum\instr\pagebreak
+%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\problem [15min] \ingray{ Imagine the batter bats both leftie and rightie (both sides of the oncoming ball). The propensity to get a hit when batting leftie is $\theta_L$ and the propensity to get a hit on when batting rightie is $\theta_R$. He bats leftie $\rho$ proportion of the games. Let $I_i$ be the indicator variable indicating if he bats leftie for the $i$th game (it is equal to 1 when he bats leftie and equal to 0 if he bats rightie). There are $n$ independent at bats per game and $G$ independent total games per season and both $n$ and $G$ are known. The data $x_1, \ldots, x_G$ are number of hits per game. All other quantities are unknown.} All sum signs are indexed from $1, \ldots, G$. The full likelihood is 
+
+\beqn
+\cprob{X}{\theta_L, \theta_R, \rho, I_1, \ldots, I_G} = \prod_{i=1}^G \tothepow{\theta_L^{x_i} (1 - \theta_L)^{n - x_i}}{I_i} \tothepow{\theta_R^{x_i} (1 - \theta_R)^{n - x_i}}{1 - I_i} \prod_{i=1}^G \binom{n}{x_i} 
+\eeqn
+
+\noindent and the prior is
+
+\beqn
+\prob{\theta_L, \theta_R, \rho, I_1, \ldots, I_G} = \prob{\theta_L}\prob{\theta_R} \prob{\rho} \rho^{\sum I_i} (1 - \rho)^{\sum (1 - I_i)}
+\eeqn
+
+\noindent Assume the following about the components in the overall prior:
+
+\beqn
+\prob{\theta_L} \propto 1,~\prob{\theta_R} \propto 1,~\prob{\rho} \propto 1.
+\eeqn
+
+\benum\subquestionwithpoints{14} \recordletters
+
+\begin{enumerate}[(a)]
+\item The prior is uninformative.
+\item The prior is improper.
+\item $\prob{\theta_L} = \betanot{1}{1}$
+\item $\prob{\theta_L} = \gammanot{1}{0}$
+\item $\prob{I_i} = \stduniform$ for all $i$
+\item $\prob{X} = \stduniform$.
+\item $\prob{\theta_L, \theta_R, \rho, I_1, \ldots, I_G} =  \rho^{\sum I_i} (1 - \rho)^{\sum (1 - I_i)}$
+\item $\prob{\theta_L, \theta_R, \rho, I_1, \ldots, I_G} \propto \rho^{\sum I_i} (1 - \rho)^{\sum (1 - I_i)}$
+\item The conjugate model for $\theta_L, \theta_R, \rho, I_1, \ldots, I_G$ under the likelihood above is a standard distribution we have studied before.
+\item $\cprob{X}{\theta_L, \theta_R, \rho, I_1, \ldots, I_G} \propto 1$
+\item $\cprob{X}{\theta_L, \theta_R, \rho, I_1, \ldots, I_G} = \tothepow{\theta_L^{\sum x_i} (1 - \theta_L)^{n - \sum x_i}}{I_i} \tothepow{\theta_R^{\sum x_i} (1 - \theta_R)^{n - \sum x_i}}{1 - I_i} \prod_{i=1}^G \binom{n}{x_i} $
+\item $\cprob{X}{\theta_L, \theta_R, \rho, I_1, \ldots, I_G} = \theta_L^{\sum I_i x_i} (1 - \theta_L)^{\sum  (1 - I_i) x_i}\theta_R^{\sum (1 - I_i) x_i} (1 - \theta_R)^{n - \sum (1 - I_i) x_i} \prod_{i=1}^G \binom{n}{x_i} $
+\item $\cprob{X}{\theta_L, \theta_R, \rho, I_1, \ldots, I_G} = \theta_L^{\sum I_i x_i} (1 - \theta_L)^{\sum I_i(n - x_i)}\theta_R^{\sum (1 - I_i) x_i} (1 - \theta_R)^{\sum (1 - I_i) (n - x_i)} \prod_{i=1}^G \binom{n}{x_i} $
+\item There are constants that can be removed when finding the kernel of (m).
+\end{enumerate}\eenum\instr\pagebreak
+%%%%%%%%%%%%%%%%%%%%%%%%
+
+\problem [15min] \ingray{ Imagine the batter bats both leftie and rightie (both sides of the oncoming ball). The propensity to get a hit when batting leftie is $\theta_L$ and the propensity to get a hit on when batting rightie is $\theta_R$. He bats leftie $\rho$ proportion of the games. Let $I_i$ be the indicator variable indicating if he bats leftie for the $i$th game (it is equal to 1 when he bats leftie and equal to 0 if he bats rightie). There are $n$ independent at bats per game and $G$ independent total games per season and both $n$ and $G$ are known. The data $x_1, \ldots, x_G$ are number of hits per game. All other quantities are unknown.  All sum signs are indexed from $1, \ldots, G$. The full likelihood is }
+
+\beqn
+\cprob{X}{\theta_L, \theta_R, \rho, I_1, \ldots, I_G} = \theta_L^{\sum I_i x_i} (1 - \theta_L)^{\sum I_i(n - x_i)}\theta_R^{\sum (1 - I_i) x_i} (1 - \theta_R)^{\sum (1 - I_i) (n -x_i)}  \prod_{i=1}^G \binom{n}{x_i} 
+\eeqn
+
+\noindent and assume the prior is
+
+\beqn
+\prob{\theta_L, \theta_R, \rho, I_1, \ldots, I_G} = \rho^{\sum I_i} (1 - \rho)^{\sum (1 - I_i)}
+\eeqn
+
+\benum\subquestionwithpoints{16} \recordletters
+
+\begin{enumerate}[(a)]
+\item $\cprob{\theta_L, \theta_R, \rho, I_1, \ldots, I_G}{X} \propto \theta_L^{\sum I_i x_i} (1 - \theta_L)^{\sum I_i(n - x_i)} \theta_R^{\sum (1 - I_i) x_i} (1 - \theta_R)^{\sum (1 - I_i) (n - x_i)} \times$ \\
+\color{white}.\color{black}~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~$\rho^{\sum I_i} (1 - \rho)^{n - \sum I_i}$
+\item $\cprob{\theta_L}{X, \theta_R, \rho, I_1, \ldots, I_G} \propto 1$ 
+\item $\cprob{\theta_L}{X, \theta_R, \rho, I_1, \ldots, I_G} \propto \theta_L^{\sum I_i x_i} (1 - \theta_L)^{\sum I_i(n - x_i)}$ 
+\item $\cprob{\theta_L}{X, \theta_R, \rho, I_1, \ldots, I_G} \propto \binomial{\theta_L}{\sum I_i}$ 
+\item $\cprob{\theta_L}{X, \theta_R, \rho, I_1, \ldots, I_G} \propto \betanot{1 + \sum I_i x_i}{1 + \sum I_i(n - x_i)}$ 
+
+\item $\cprob{\theta_R}{X, \theta_L, \rho, I_1, \ldots, I_G} \propto 1$ 
+\item $\cprob{\theta_R}{X, \theta_L, \rho, I_1, \ldots, I_G} \propto \theta_R^{\sum (1 - I_i) x_i} (1 - \theta_R)^{\sum (1 - I_i) (n - x_i)} $ 
+\item $\cprob{\theta_R}{X, \theta_L, \rho, I_1, \ldots, I_G} \propto \binomial{\theta_R}{n - \sum I_i}$ 
+\item $\cprob{\theta_R}{X, \theta_L, \rho, I_1, \ldots, I_G} \propto \betanot{1 + \sum (1 - I_i) x_i}{1 + \sum (1 - I_i) (n - x_i)}$ 
+
+\item $\cprob{\rho}{X, \theta_L, \theta_R, I_1, \ldots, I_G} \propto 1$ 
+\item $\cprob{\rho}{X, \theta_L, \theta_R, I_1, \ldots, I_G} \propto \rho^{\sum I_i} (1 - \rho)^{\sum (1 - I_i)} $ 
+\item $\cprob{\rho}{X, \theta_L, \theta_R, I_1, \ldots, I_G} \propto \binomial{\rho}{\sum (1 - I_i)}$ 
+\item $\cprob{\rho}{X, \theta_L, \theta_R, I_1, \ldots, I_G} \propto \betanot{1 + \sum I_i}{1 + \sum (1 - I_i) }$ 
+
+\item $\cprob{I_1}{X, \theta_L, \theta_R, I_2, \ldots, I_G, \rho} =$ Bernoulli($\cdot$) with a parameter that is a function of $X, \theta_L, \theta_R, I_2, \ldots, I_G, \rho$.
+\item $\cprob{I_1}{X, \theta_L, \theta_R, I_2, \ldots, I_G, \rho} =$ Bernoulli($\cdot$) with a parameter that is a function of $X, \theta_L, \theta_R, \rho$.
+\item $\cprob{I_1}{X, \theta_L, \theta_R, I_2, \ldots, I_G, \rho} =$ Bernoulli($\cdot$) with a parameter that is a function of only $X$ and $\rho$.
+\end{enumerate}\eenum\instr\pagebreak
+%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\problem [8min] \ingray{ Imagine the batter bats both leftie and rightie (both sides of the oncoming ball). The propensity to get a hit when batting leftie is $\theta_L$ and the propensity to get a hit on when batting rightie is $\theta_R$. He bats leftie $\rho$ proportion of the games. Let $I_i$ be the indicator variable indicating if he bats leftie for the $i$th game (it is equal to 1 when he bats leftie and equal to 0 if he bats rightie). There are $n$ independent at bats per game and $G$ independent total games per season and both $n$ and $G$ are known. The data $x_1, \ldots, x_G$ are number of hits per game. All other quantities are unknown.  All sum signs are indexed from $1, \ldots, G$.} Consider a Gibbs sampler using the following conditional distributions:
+
+\beqn
+\cprob{\theta_L}{X, \theta_R, \rho, I_1, \ldots, I_G} &=& \betanot{1 + \sum I_i x_i}{1 + \sum I_i(n - x_i)} \\
+\cprob{\theta_R}{X, \theta_L, \rho, I_1, \ldots, I_G} &=& \betanot{1 + \sum (1 - I_i) x_i}{1 + \sum (1 - I_i) (n - x_i)} \\
+\cprob{\rho}{X, \theta_L, \theta_R, I_1, \ldots, I_G} &=& \betanot{1 + \sum I_i}{1 + \sum (1 - I_i) } \\
+\forall i~~\cprob{I_i}{X, \theta_L, \theta_R, I_{-i}, \rho} &=& \bernoulli{\frac{\rho\theta_L^{x_i} (1 - \theta_L)^{n - x_i}}{\rho\theta_L^{x_i} (1 - \theta_L)^{n - x_i} + (1 - \rho)\theta_R^{x_i} (1 - \theta_R)^{n - x_i}}}
+\eeqn
+
+\benum\subquestionwithpoints{13} \recordletters
+
+\begin{enumerate}[(a)]
+\item The first conditional distribution can be sampled using the \texttt{rbeta} function.
+\item This Gibbs sampler will converge after a sufficient burn-in period.
+\item This Gibbs sampler will converge after thinning.
+\item This Gibbs sampler does not include all the conditional distributions necessary to provide samples from the posterior.
+\item This Gibbs sampler will not converge if we pick a starting position that is far from the center of the posterior's density.
+\item This Gibbs sampler requires us to specify the upper and lower bounds of $\theta_L, \theta_R$ and $\rho$ before we begin.
+\item This Gibbs sampler can get stuck in local modes rendering our entire inferential procedure inaccurate.
+\item This Gibbs sampler will provide $\iid$ samples from the posterior $\cprob{\theta_L, \theta_R, \rho, I_1, \ldots, I_G}{X}$ after a sufficient burn-in number of samples are dropped.
+\item This Gibbs sampler will provide $\iid$ samples from the posterior $\cprob{\theta_L, \theta_R, \rho, I_1, \ldots, I_G}{X}$ after a sufficient burn-in number of samples are dropped and the samples are thinned  to eliminate autocorrelation among the iterations of the sampler.
+\item The conditional distributions tell us how many total samples to run in the sampler.
+\item This Gibbs sampler requires one or more grid sampling step(s).
+\item Sampling $I_i$ from its conditional distribution is impossible since it is not a continuous random variable.
+\item Since the dimension of the parameter space (i.e. the number of parameters) is large, this Gibbs sampler cannot provide accurate inference.
+\end{enumerate}\eenum\instr\pagebreak
+%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+\problem [4min] We employ the Gibbs sampler specified previously to provide $\iid$ samples from the posterior $\cprob{\theta_L, \theta_R, \rho, I_1, \ldots, I_G}{X}$. We run $S=100,000$ samples. We plot the first 850 below where the top plot is the chain for $\theta_L~|~X$, the middle plot is the chain for $\theta_R~|~X$ and the bottom plot is the chain for $\rho~|~X$. The chains for $I_1~|~X, \ldots, I_G~|~X$ are not displayed.
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=7in]{burn}
+\end{figure}
+
+\benum\subquestionwithpoints{4} Where should we burn-in the chain? Select the best answer below:
+
+\begin{enumerate}[(a)]
+\item 10
+\item 380
+\item 750
+\item never
+\end{enumerate}\eenum\instr\pagebreak
+%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\problem [4min] \ingray{We employ the Gibbs sampler specified previously to provide $\iid$ samples from the posterior $\cprob{\theta_L, \theta_R, \rho, I_1, \ldots, I_G}{X}$. We run $S=100,000$ samples.} We appropriately burned in. Now we wish to thin the chain. Below are autocorrelation plots. The top plot is the chain for $\theta_L~|~X$, the middle plot is the chain for $\theta_R~|~X$ and the bottom plot is the chain for $\rho~|~X$. The chains for $I_1~|~X, \ldots, I_G~|~X$ are not displayed.
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=7in]{thin}
+\end{figure}
+
+\benum\subquestionwithpoints{4} What multiple of the chain samples should we thin? Select the best answer below:
+
+\begin{enumerate}[(a)]
+\item 10
+\item 100
+\item 250
+\item never
+\end{enumerate}\eenum\instr\pagebreak
+
+
+\problem [6min] \ingray{We employ the Gibbs sampler specified previously to provide $\iid$ samples from the posterior $\cprob{\theta_L, \theta_R, \rho, I_1, \ldots, I_G}{X}$. We run $S=100,000$ samples.} We appropriately burned and thinned and now we provide histograms for the marginal posteriors.  Below is a plot for $\theta_L$.
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=7in]{theta1s}
+\end{figure}
+
+\vspace{-1cm}
+\benum\subquestionwithpoints{12} \recordletters
+
+\begin{enumerate}[(a)]
+\item The above approximates $\cprob{\theta_L}{X, \theta_R, \rho, I_1, \ldots, I_G}$ 
+\item The above approximates $\cprob{\theta_L}{X, \theta_R, \rho}$ 
+\item The above approximates $\cprob{\theta_L}{X}$ 
+\item The MMSE for $\theta_L$ is approximately 0.15
+\item The MMSE for $\theta_L$ is approximately 0.20
+\item The MMSE for $\theta_L$ is approximately 0.22
+\item The MMSE for $\theta_L$ is equal to the MMAE for $\theta_L$.
+\item The MMSE for $\theta_L$ is larger than the MMAE for $\theta_L$.
+\item A 95\% credible region for $\theta_L$ is impossible to estimate from this plot alone.
+\item This plot alone will allow us to test if $\theta_L \neq \theta_R$.
+\item If you are testing if $\theta_L > 0.15$, the p value would be small and the null likely rejected.
+\end{enumerate}\eenum\instr\pagebreak
+%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\problem [6min] \ingray{We employ the Gibbs sampler specified previously to provide $\iid$ samples from the posterior $\cprob{\theta_L, \theta_R, \rho, I_1, \ldots, I_G}{X}$. We run $S=100,000$ samples. We appropriately burned and thinned and now we provide histograms for the marginal posteriors.} Below is a plot for $\rho$.
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=7in]{rhos}
+\end{figure}
+
+\vspace{-1cm}
+\benum\subquestionwithpoints{5} \recordletters
+
+\begin{enumerate}[(a)]
+\item The above approximates $\cprob{\rho}{X}$ 
+\item A 95\% credible region for $\rho$ would range from 0.1 to 0.9.
+\item The main conclusion here is that $\rho$ cannot be estimated well.
+\item The MMSE for $\rho$ is nearly equal to the MMAE for $\rho$.
+\item Based on the plot above, estimates for most of the $I_i$'s will be ambiguous.
+\end{enumerate}\eenum\instr\pagebreak
+%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\problem [10min] \ingray{We employ the Gibbs sampler specified previously to provide $\iid$ samples from the posterior $\cprob{\theta_L, \theta_R, \rho, I_1, \ldots, I_G}{X}$. We run $S=100,000$ samples. We appropriately burned and thinned and now we provide histograms for the marginal posteriors.}  Below is a plot for each $\theta_L$ sample subtracted from each $\theta_R$ sample.
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=7in]{thetaLminusthetaRs}
+\end{figure}
+
+\vspace{-1cm}
+\benum\subquestionwithpoints{10} \recordletters
+
+\begin{enumerate}[(a)]
+\item The above plot approximates $\cprob{\theta_R - \theta_L}{X}$.
+\item The above plot tells us that more likely than not $\rho < 50\%$.
+\item The main conclusion here is that $\rho$ cannot be estimated well.
+\item This plot alone will allow us to test if $\theta_R \neq \theta_L$.
+\item The null hypothesis that $\theta_R = \theta_L$ will result in a p-value estimated to be $\approx 0$.
+\item The null hypothesis that $\theta_R = \theta_L$ will result in a p-value estimated to be $= 0$.
+\item One can conclude from this plot that this batter is better at batting rightie than leftie.
+\item One can conclude from this plot that this batter has about a 14\% higher probability of getting a hit when batting rightie than leftie.\\
+
+The $I_1$ distribution after burning and thinning is 14 0's and 343 1's.
+
+\item The probability that the batter bat leftie for game \#1 is about 96\%.
+\item The best guess as to his batting orientation for game \#1 is leftie.
+\end{enumerate}\eenum\instr\pagebreak
+%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\problem [4min] \ingray{ Imagine the batter bats both leftie and rightie (both sides of the oncoming ball). The propensity to get a hit when batting leftie is $\theta_L$ and the propensity to get a hit on when batting rightie is $\theta_R$. He bats leftie $\rho$ proportion of the games. Let $I_i$ be the indicator variable indicating if he bats leftie for the $i$th game (it is equal to 1 when he bats leftie and equal to 0 if he bats rightie). There are $n$ independent at bats per game and $G$ independent total games per season and both $n$ and $G$ are known. The data $x_1, \ldots, x_G$ are number of hits per game. All other quantities are unknown.  All sum signs are indexed from $1, \ldots, G$.} Here is a histogram of the original data for the $G = 300$ games:
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=7in]{xs}
+\end{figure}
+
+\vspace{-1cm}
+\benum\subquestionwithpoints{10} \recordletters
+
+\begin{enumerate}[(a)]
+\item This data indicates that our model formulation $\mathcal{F}$ must be incorrect.
+\item This data indicates that a betabinomial model may be appropriate.
+\item If the model is correctly formulated, this data shows that $\theta_L$ and $\theta_R$ are similar.
+\item If the model is correctly formulated, this data shows that $\rho$ is difficult to estimate.
+\item If the model is correctly formulated, this data shows that the $I_i$'s are difficult to estimate.
+\end{enumerate}\eenum\instr\pagebreak
+%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\problem [17min] Let $\mathcal{F}: \iid \normnot{\theta}{\sigsq}$ with both $\theta$ and $\sigsq$ unknown.
+
+
+\benum\subquestionwithpoints{20} \recordletters
+
+\begin{enumerate}[(a)]
+\item The prior $\prob{\theta, \sigsq}$ being normal is conjugate to the posterior which is normal.
+\item The prior $\prob{\theta, \sigsq}$ being normal-inverse-gamma is conjugate to the posterior which is normal.
+\item The prior $\prob{\theta, \sigsq}$ being normal-inverse-gamma is conjugate to the posterior which is normal-inverse-gamma.
+\item The prior $\prob{\theta, \sigsq} \propto 1$ is conjugate.
+\item The prior $\prob{\theta, \sigsq} \propto 1/{\sigsq}$ is conjugate.
+\item The prior $\cprob{\theta}{\sigsq}\prob{\sigsq}$ is always conjugate.
+\item The prior $\prob{\theta}\prob{\sigsq}$ is always semi-conjugate.
+\item The prior $\cprob{\theta}{\sigsq}\prob{\sigsq}$ is conjugate only if $\cprob{\theta}{\sigsq} = \normnot{\mu_0}{\sigsq / n_0}$ and $\prob{\sigsq}$ is inverse gamma.
+\item The prior $\cprob{\theta}{\sigsq}\prob{\sigsq}$ is conjugate only if $\cprob{\theta}{\sigsq} = \normnot{\mu_0}{\tausq}$ and $\prob{\sigsq}$ is inverse gamma where $\tausq$ is a constant.
+\item A conjugate prior will yield a posterior kernel $k(\theta, \sigsq\,|\,X) = \tothepow{\sigsq}{-\alpha - 1} e^{-(\beta + \lambda \squared{\theta - \mu_0}) / \sigsq}$ where $\alpha, \beta, \lambda, \mu_0$ are constants which do not depend on $\theta$ or $\sigsq$. \\
+
+Regardless of whether (j) was true, assume this kernel for the rest of the problem.
+
+\item If $k(\theta, \sigsq\,|\,X)$ is factored into $k(\theta|\,X, \sigsq) k(\sigsq\,|\,X)$ then $k(\theta|\,X, \sigsq) \propto$ a normal.
+\item If $k(\theta, \sigsq\,|\,X)$ is factored into $k(\theta|\,X, \sigsq) k(\sigsq\,|\,X)$ then $k(\theta|\,X, \sigsq)$ is a kernel for no known random variable.
+\item If $k(\theta, \sigsq\,|\,X)$ is factored into $k(\theta|\,X, \sigsq) k(\sigsq\,|\,X)$ then $k(\sigsq|\,X) \propto$ an inverse gamma distribution.
+\item If $k(\theta, \sigsq\,|\,X)$ is factored into $k(\theta|\,X, \sigsq) k(\sigsq\,|\,X)$ then $k(\sigsq|\,X)$ is a kernel for no known random variable.
+\item It can be shown that $\int_0^\infty k(\theta, \sigsq\,|\,X) d\sigsq \propto$ a normal distribution.
+\item It can be shown that $\int_0^\infty k(\theta, \sigsq\,|\,X) d\sigsq \propto$ a students $T$ distribution.
+\item It can be shown that $\int_0^\infty k(\theta, \sigsq\,|\,X) d\sigsq \propto$ an inverse gamma distribution.
+
+\item It can be shown that $\int_\reals k(\theta, \sigsq\,|\,X) d\theta \propto$ a normal distribution.
+\item It can be shown that $\int_\reals k(\theta, \sigsq\,|\,X) d\theta \propto$ a students $T$ distribution.
+\item It can be shown that $\int_\reals k(\theta, \sigsq\,|\,X) d\theta \propto$ an inverse gamma distribution.
+\end{enumerate}\eenum\instr\pagebreak
+%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+
+\problem [7min] Let $\mathcal{F}: \iid \poisson{\theta}$. Let $\prob{\theta} = \gammanot{\alpha}{\beta}$,  $X_*$ represent the future observation(s) and $n_*$ represent the number of future observation(s).
+
+\benum\subquestionwithpoints{12} \recordletters
+
+\begin{enumerate}[(a)]
+\item $\cprob{X}{\theta} = \cprob{X_1}{\theta} \cdot \cprob{X_2}{\theta} \cdot \ldots \cdot  \cprob{X_n}{\theta}$.
+\item The prior is conjugate.
+\item The prior is proper regardless of the values of $\alpha$ and $\beta$.
+\item The posterior predictive distribution $\cprob{X_*}{X}$ is always negative binomial.
+\item $\cprob{X_*}{X}$ is only negative binomial if $n_* = 1$.
+\item $\cprob{X_*}{X}$ is only negative binomial if $n_* > 1$.\\
+
+Assume $n_* = 10$ for the remainder of this problem.
+
+\item To sample one $X_*$, we first need to draw $\theta_{\text{samp}}$, a sample from $\cprob{\theta}{X}$.
+\item To sample one $X_*$, we first need to draw $\theta_{\text{samp}}$, a sample from $\prob{\theta}$.
+\item To sample one $X_*$, we then draw $X_{\text{samp}, 1}, X_{\text{samp}, 2}, \ldots, X_{\text{samp}, n}$ values independently using \texttt{rpois}($\theta_{\text{samp}}$).
+\item To sample one $X_*$, we then draw $X_{\text{samp}, 1}, X_{\text{samp}, 2}, \ldots, X_{\text{samp}, 10}$ values independently using \texttt{rpois}($\theta_{\text{samp}}$).
+\item Regardless of the method used to sample one $X_*$, the components of $X_*$ are all independent of each other.
+\item To sample many $X_*$'s, we repeat the procedure of correctly drawing $\theta_{\text{samp}}$ and then correctly drawing $X_*$ over and over again.
+\end{enumerate}\eenum\instr\pagebreak
+%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\end{document}
